@@ -1,0 +1,110 @@
+body {
+  font-family: 'Courier Prime', monospace;
+  padding: 1%;
+  text-align: center;
+}
+
+.navbar {
+  height: 4rem;
+  background-color: #0092CA;
+  color: white;
+  opacity: 0.7;
+  filter: alpha(opacity=50);
+}
+
+.brandlogo {
+  border-radius: 8px;
+  height: 3rem;
+}
+
+.intro {
+  background-color: white;
+  color: #0092CA;
+  margin-top: 50px;
+}
+
+.intoto {
+  font-size: 3.5rem;
+}
+
+.container-fluid {
+  padding: 2% 5%;
+}
+
+svg {
+  margin: 0;
+}
+
+/* CONTENT */
+#skills {
+  background-color: #0092CA;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.content-title {
+  font-size: 2rem;
+}
+
+.heading-line::before {
+  margin: 0 auto;
+  display: block;
+  height: 0.1rem;
+  width: 10rem;
+  content: "";
+  background-color: grey;
+}
+
+.heading-line::after {
+  margin: 0 auto;
+  display: block;
+  height: 0.2rem;
+  width: 2rem;
+  content: "";
+  padding-top: 0.5rem;
+  background-color: grey;
+}
+
+/* SKILLS */
+.row {
+  padding: 5px 50px 20px;
+}
+
+.fa-brands {
+  animation: 3s;
+}
+
+/* SERVICES */
+#services {
+  color: grey;
+}
+
+.services-icon {
+  color: #0092CA;
+}
+
+/* TESTIMONIALS */
+#testimonials {
+  background-color: #0092CA;
+}
+
+.testimonial-image {
+  width: 300px;
+  border-radius: 8px;
+}
+
+/* FOOTER */
+.social-icon {
+  margin: 20px 10px;
+  color: grey;
+}
+
+/* HOVER */
+.fa-brands:hover {
+  color: grey;
+}
+
+.navbar:hover {
+  background-color: white;
+}
